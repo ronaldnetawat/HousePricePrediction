@@ -6,14 +6,16 @@ Python
 Jupyter Lab
 Scikit-learn
 
-# Getting Started
+<h1>Getting Started</h1>
 To run this project on your own machine, follow these steps:
 
-Clone the repository onto your local machine.
-Install the required dependencies using pip install -r requirements.txt.
-Open the housing_price_prediction.ipynb notebook in Jupyter Lab.
-Follow the instructions in the notebook to load and preprocess the data, build and train the linear regression and random forest models, and evaluate their performance.
-Data Preprocessing
+1. Clone the repository onto your local machine.
+2. Install the required dependencies using pip install -r requirements.txt.
+3. Open the HousePrediction.ipynb notebook in Jupyter Lab.
+4. Follow the instructions in the notebook to load and preprocess the data, build and train the linear regression and random forest models, and evaluate their performance.
+
+
+<h2>Data Preprocessing</h2>
 The dataset contained missing values, which were imputed using the mean value of the feature. Additionally, the features were scaled using Scikit-learn's StandardScaler to ensure that all features were on a similar scale.
 
 Model Selection
